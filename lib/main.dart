@@ -15,21 +15,22 @@ class MyApp extends StatefulWidget {
 }
 
 class MyAppState extends State<MyApp> {
+  var questionIndex = 0;
+
+  void answerQuestion() {
+    setState(() {
+      questionIndex = questionIndex + 1;
+    });
+    print('answer chosen you ');
+  }
+
   @override
   Widget build(BuildContext context) {
-    var questionIndex = 0;
 
     var questions = [
       'What\'s your favourite colorz?',
       'What\'s your favourite animal? '
     ];
-
-    void answerQuestion() {
-      setState(() {
-        questionIndex = questionIndex + 1;
-      });
-      print(questions[questionIndex]);
-    }
 
     return MaterialApp(
       home: Scaffold(
