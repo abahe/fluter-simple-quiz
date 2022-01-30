@@ -1,4 +1,20 @@
 
+
+// void main() {
+//   runApp(MyApp());
+// }
+
+//function wiht only one expression
+
 stateless widget - can't change 
 
 stateful widget 
+
+private
+
+_MyAppState
+_questionIndex
+
+private property 
+leading underscore
+
