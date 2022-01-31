@@ -20,4 +20,15 @@ leading underscore
 
 add callback
 
+- using maps
+
+- 45 - mapping lists to Widghets
+
+- 46 - final vs const
+
+final = runtime constant value 
+
+const = compile time constant 
+
+const list = const []
 
