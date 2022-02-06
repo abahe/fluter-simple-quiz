@@ -44,3 +44,8 @@ void main() {
 alias:- key0
 Password:- 123456
 
+It's better to have a readable code than unreadable, really entangled code.
+It's better because it makes your code easier to manage for you and your fellow developers.
+but it's also better for performance,
+
+
