@@ -32,3 +32,15 @@ const = compile time constant
 
 const list = const []
 
+void main() {
+  String? userName = 'Max';
+ 
+  userName = null;
+  userName = 'yeah';
+
+}
+
+
+alias:- key0
+Password:- 123456
+
